@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+</head>
+<body>
+    <h1>Accessible Registration Form</h1>
+   <form action="#" method="POST">
+    <fieldset>
+        <legend>User Information</legend>
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required aria-describedby="fullnameHelp">
+        <small id="fullnameHelp">Please enter your full name.</small>
+
+        <br>
+        <br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required aria-describedby="emailHelp">
+        <small id="emailHelp">Please enter a valid email address.</small>
+
+        <br><br>
+
+        <label for="pass">Password:</label>
+        <input type="passHelp" id="pass" name="pass" required aria-describedby="passHelp">
+        <small id="passHelp">Please enter a password.</small>
+
+        <br>
+        <br>
+
+        
+        <label for="confirmpass">Confirm Password:</label>
+        <input type="pass" id="confirmpass" name="confirmpass" required aria-describedby="confirmpassHelp">
+        <small id="confirmpassHelp">Please confirm your password.</small>
+
+        <br>
+        <br>
+
+        <button type="submit">Register</button>
+    </fieldset>
+</form>
+</body>
+</html>
